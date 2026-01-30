@@ -42,6 +42,18 @@ We only use numpy for the implementation.
     print(predictions)
     ```
 
+5.  **Various evaluation metrics**
+    - mean_squared_error
+    - rmse
+    - mean_absolute_error
+    - r_squared (includes adjusted r_squared)
+    - mbe
+    - mape
+    - smape
+    - explained_var_score
+
+   
+
 ## Key Features
 
 *   **Recursive Tree Building:**  The `_build_tree` method recursively creates the decision tree structure.

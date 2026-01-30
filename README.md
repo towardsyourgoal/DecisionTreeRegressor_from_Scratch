@@ -42,13 +42,6 @@ We only use numpy for the implementation.
     print(predictions)
     ```
 
-## Example Data
-
-The example usage in the `if __name__ == '__main__':` block uses the following data:
-
-*   **X:** `[[1], [2], [3], [4], [5]]` - A NumPy array representing the input features.
-*   **y:** `[2, 4, 5, 4, 5]` - A NumPy array representing the corresponding target values.
-
 ## Key Features
 
 *   **Recursive Tree Building:**  The `_build_tree` method recursively creates the decision tree structure.
